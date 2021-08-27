@@ -1,0 +1,86 @@
+.container {
+    width: var(--global-width);
+    margin: auto ;
+    text-align: center ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    justify-content: space-around;
+    height: 100vh ;
+}
+
+.failed {
+    background-color: #fd0404 ;
+    padding: 10px ;
+    border-radius: 5px ;
+    color: #FFf ;
+    width: 200px ;
+    margin: auto ;
+    text-align: center ;
+    margin-top: 40px ;
+}
+
+.main-container {
+    display: flex ;
+    flex-direction: column ;
+    width: 60% ;
+    background-color: var(--global-background) ;
+    border-radius: 8px ;
+    text-transform: capitalize ;
+}
+
+.main-container h1 {
+    margin: 15px 0 ;
+    color: var(--global-font-color) ;
+}
+
+form {
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    margin-bottom: 15px ;
+    color: var(--global-font-color) ;
+}
+
+form input {
+    width: 50% ;
+    margin: 15px 0 ;
+    padding: 10px ;
+    text-align: center ;
+    border: none ;
+    border-style: none ;
+    border-radius: 5px ;
+}
+
+form input:focus {
+    background-color: #daebf5 ;
+    transition: 0.5s ease ;
+}
+
+form label {
+    display: flex ;
+    text-align: left ;
+    margin: 10px 0 ;
+}
+
+form button {
+    padding: 8px ;
+    width: 200px ;
+    margin: 10px 0 ;
+    border: none ;
+    background-color: #2d70c2 ;
+    color: var(--global-font-color) ;
+    border-radius: 5px ;
+    transition: 0.5s ease ;
+}
+
+form button:hover {
+    background-color: #065cc5 ;
+}
+
+
+form label a {
+    text-decoration: none ;
+    color: var(--global-font-color) ;
+    margin-left: 10px ;
+}

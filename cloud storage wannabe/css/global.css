@@ -1,0 +1,15 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+    font-family: 'Poppins', sans-serif ;
+}
+
+:root {
+    --global-width: 1000px ;
+    --global-background: #4293f5 ;
+    --global-font-color: #daf5e3; 
+}
+
+body {
+    background-color: #f5fff8 ;
+}

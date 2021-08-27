@@ -1,0 +1,110 @@
+nav {
+    background-color : var(--global-background);
+}
+
+.nav-container {
+    width: var(--global-width);
+    display: flex ;
+    justify-content: space-between;
+    padding: 5px ;
+    margin: auto ;
+    align-items: center ;
+}
+
+.nav-logo {
+    font-size: 30px ;
+    color: var(--global-font-color );
+}
+
+.profile-menu {
+display: flex ;
+width: 10% ;
+justify-content: space-between ;
+align-items: center ;
+}
+
+.profile-menu a {
+    text-decoration: none ;
+    color: rgb(190, 183, 183) ;
+}
+
+.profile-menu-inner {
+    display: flex ;
+    flex-direction: column ;
+    align-items: center;
+    color: var(--global-font-color);
+}
+
+.nav-container img {
+    width: 50px ;
+    height: 50px ;
+    border-radius: 50% ;
+}
+
+.container {
+    width: var(--global-width );
+    border: 1px solid black ;
+    margin: 20px auto ;
+    display: flex ;
+    flex-direction: row ;
+}
+
+.main {
+    display: flex ;
+    flex-direction: column ;
+    width: 800px ;
+    margin: 10px auto ;
+    border: 1px solid black ;
+}
+
+.main h2 {
+    font-size: 20px ;
+    text-align: center ;
+    margin-top: 30px ;
+}
+
+.file-list-render {
+    display: flex ;
+    flex-direction: row ;
+    margin: 10px auto ;
+    justify-content: space-around ;
+    width: 80% ;
+    flex-wrap: wrap ;
+}
+
+.file {
+    width: 200px ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    padding: 10px ;
+    border: 1px solid black ;
+    margin: 10px 0 ;
+}
+
+.file h3 {
+    font-size: 13px ;
+}
+
+.upload-section {
+    width: 150px ;
+    margin: 10px auto ;
+    border: 1px solid black ;
+    align-items: center ;
+    text-align: center ;
+    display: flex ;
+    flex-direction: column ;
+}
+
+
+
+.upload-section h2 {
+    font-size: 18px ;
+    margin-top: 20px ;
+}
+
+.upload-section input {
+    margin-top: 30px ;
+    width: 150px ;
+}
+
